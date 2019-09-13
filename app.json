@@ -1,0 +1,14 @@
+{
+  "name": "gsnova-heroku-server",
+  "description": "gsnova server for heroku.",
+  "image": "heroku/go",
+  "repository": "https://github.com/yinqiwen/gsnova",
+  "keywords": ["go", "gsnova" ],
+  "env": {
+    "GSNOVA_CIPHER_KEY": {
+      "description": "加密key，留空使用默认key.",
+      "value": "",
+      "required": false
+    }
+  }
+}
